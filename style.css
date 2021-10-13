@@ -29,3 +29,33 @@ input[placeholder], [placeholder], *[placeholder]
 {
   color: rgb(10, 136, 153) !important;
 }
+
+.navbar-toggler
+{
+  background-color: dodgerblue! important;
+}
+
+.nav-link {
+  color: dimgray! important;
+  transition: all 1.5s ease! important;
+}
+.nav-link:hover{
+  color: #06810d! important;
+}
+.hero-bg
+{
+  background-image: 
+  linear-gradient(120deg,
+   rgba(78, 38, 105, 0.9) 50%,
+   transparent 50%
+  ),
+  url('images/bg/HERO-BG.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.custom-bg-color
+{
+  background: #f6f6f6;
+}
