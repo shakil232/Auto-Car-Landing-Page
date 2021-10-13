@@ -59,9 +59,9 @@
     <!-- End Header Section -->
 
     <!-- Start Hero Section -->
-    <section class="hero-bg">
-        <main class="container my-2 pb-3">
-            <div class="d-flex flex-column-reverse flex-md-row h-100 align-content-center justify-content-between ">
+    <section class="hero-bg ">
+        <main class="container my-2 pb-3 h-auto">
+            <div class="d-flex flex-column-reverse flex-md-row align-content-center justify-content-between ">
                 <div class="ps-3 pt-5 my-5 w-75 text-justify text-warning">
                     <p>
                         We Give You
@@ -73,7 +73,7 @@
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
                         Illo repellat ab rerum, magnam nihil excepturi?
                     </p>
-                    <button class="btn-danger p-2 rounded-3 border-0 shadow-lg fw-bold"> Get Appointment</button>
+                    <button class="btn-danger p-2 rounded-3 border-0 shadow-lg fw-bold mb-5"> Get Appointment</button>
 
                 </div>
 
@@ -85,23 +85,106 @@
     </section>
     <!-- End Hero Section -->
 
+    <!-- Start Contact Section -->
+    <section class="container pb-1 ">
+        <div class="row row-cols-1 row-cols-md-3 g-5 text-white">
+
+            <div class="col card-overlapping ">
+                <div class="card border-0 shadow-lg rounded-3 card-overlapping-colors mb-5" style="max-width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-warning text-center">
+                            Contact Details
+                        </h5>
+                        <div class="d-flex justify-content-between align-content-center">
+                            <div>
+                                <p>Call us :</p>
+                                <p>Find us :</p>
+                                <p>Work Time :</p>
+                            </div>
+                            <div class="ps-3">
+                                <p>+08801718232160</p>
+                                <p>1122 Mirpur10,Dhaka</p>
+                                <p>Mon-Sat 7:00-18:00 <br> Sunday Closed, call us for emergency</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col card-overlapping ">
+                <div class="card border-0 shadow-lg rounded-3 card-overlapping-colors mb-5 h-75"
+                    style="max-width: 40rem;;">
+                    <div class="card-body">
+                        <h5 class="card-title  fw-bold text-warning text-center">
+                            Get 30% Discount
+                        </h5>
+                        <form onSubmit={}>
+                            <div class="form-group pb-3 pt-3">
+                                <input type="text" name="name" placeholder="Name" class="form-control" />
+                            </div>
+
+                            <div class="d-flex justify-content-between align-content-center pb-3 pt-2">
+                                <div class="form-group ">
+                                    <input type="email" name="email" placeholder="Email" class="form-control" />
+                                </div>
+                                <div class="form-group  ps-1">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Information</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div className="text-center form-group pb-2">
+                                <input type="submit" class="form-control bg-warning fw-bold " value="GET DISCOUNT" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col card-overlapping ">
+                <div class="card border-0 shadow-lg rounded-3  mb-5 card-overlapping-colors " style="max-width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning text-center fw-bold pb-4">
+                            Vehicle Tips
+                        </h5>
+                        <p class="card-text text-white fs-6 lh-lg">Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Ullam, autem molestias iure itaque illo omnis a temporibus?</p>
+                    </div>
+                    <div class="ms-auto pb-3">
+                        <a class="pervious-btn border-0 bg-danger text-white me-2 p-2 text-decoration-none rounded-3">
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                        <a class="next-btn border-0 bg-danger text-white p-2 me-1 text-decoration-none rounded-3">
+                            <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
     <!-- Start Choose-Us Section -->
-    <section class=" custom-bg-color pt-4">
+    <section class=" custom-bg-color pt-5">
         <div class="container">
             <h2 class=" text-center fw-bold text-danger">
-                Why<span class="text-secondary"> Choose Us</span>
+                WHY<span class="text-secondary"> CHOOSE US</span>
             </h2>
             <main class="row  h-auto pb-2 pt-5">
-
                 <div class="outline- col-md-8 pb-5 ">
-                    <div
-                        class="d-flex flex-column-reverse flex-md-row justify-content-between align-content-center h-auto">
+                    <!-- fast two div -->
+                    <div class="d-flex flex-column-reverse flex-md-row h-auto">
                         <div
-                            class=" d-flex flex-column-reverse flex-md-row h-auto justify-content-between align-content-center ps-5 ">
+                            class=" d-flex flex-column-reverse flex-md-row h-auto justify-content-between align-content-center ps-5 pt-4">
                             <div class="icon text-center">
                                 <img class="img-fluid" src="images/icon/expert.png" alt="expert">
                             </div>
-                            <div class="text ps-4 ">
+                            <div class="text ps-4">
                                 <h5 class="text-primary">Expert Mechanics</h5>
                                 <small class="text-secondary">Lorem ipsum dolor sit amet. <br> consectetur Praesentium,
                                     eaque.</small>
@@ -110,7 +193,7 @@
                         </div>
 
                         <div
-                            class="d-flex flex-column-reverse flex-md-row h-auto justify-content-between align-content-center ps-5">
+                            class="d-flex flex-column-reverse flex-md-row h-auto justify-content-between align-content-center ps-5 pt-4">
                             <div class="icon text-center">
                                 <img class="img-fluid" src="images/icon/money.png" alt="expert">
                             </div>
@@ -118,12 +201,11 @@
                                 <h5 class="text-primary">Reasonable Price</h5>
                                 <small class="text-secondary">Lorem ipsum dolor sit amet. <br> consectetur Praesentium,
                                     eaque.</small>
-
                             </div>
                         </div>
-
                     </div>
 
+                    <!-- 2nd two div -->
                     <div class="d-flex flex-column-reverse flex-md-row h-auto">
                         <div
                             class=" d-flex flex-column-reverse flex-md-row h-auto justify-content-between align-content-center ps-5 pt-4">
@@ -162,25 +244,27 @@
     <!-- End Choose-Us Section -->
 
     <!-- Start Services Section -->
-    <section class="custom-bg-color pb-4 pt-4">
+    <section class="custom-bg-color pb-5 pt-4">
         <main class="container ">
             <h2 class=" text-center fw-bold text-danger pb-3">
-                <span class="text-secondary"> Our</span> Services
+                <span class="text-secondary"> OUR</span> SERVICES
             </h2>
-            <div class="row row-cols-1 row-cols-md-4 g-3 ">
+            <div class="row row-cols-1 row-cols-md-4 g-4 pt-5">
 
                 <div class="col">
-                    <div class="card border-0 shadow-lg rounded-3">
+                    <div class="card border-0 shadow-lg rounded-3 card-hover-custom">
                         <div class="inner">
                             <img src="images/services/schedule-service.jpg" class="card-img-top img-fluid"
                                 alt="schedule-service">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title text-success fw-bold">
-                                SCHEDULE <br> 
+                                SCHEDULE <br>
                                 <span class="text-secondary"> SERVICES </span>
-                             </h5>
-                            <p class="card-text text-secondary">This is a longer card with supporting text below as a natural  lead-in to additional content.</p>
+                            </h5>
+                            <p class="card-text text-secondary">This is a longer card with supporting text below as a
+                                natural.
+                            </p>
                             <a class="btn-danger border-0 shadow-lg rounded-3 p-1 text-decoration-none">
                                 MORE
                             </a>
@@ -189,17 +273,19 @@
                 </div>
 
                 <div class="col">
-                    <div class="card border-0 shadow-lg rounded-3">
+                    <div class="card border-0 shadow-lg rounded-3 card-hover-custom">
                         <div class="inner">
                             <img src="images/services/preventive-service.jpg" class="card-img-top img-fluid"
                                 alt="repair-service">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title text-success fw-bold">
-                                PREVENTIVE <br> 
+                                PREVENTIVE <br>
                                 <span class="text-secondary"> MAINTENANCE </span>
                             </h5>
-                            <p class="card-text text-secondary">This is a longer card with supporting text below as a natural  lead-in to additional content.</p>
+                            <p class="card-text text-secondary">This is a longer card with supporting text below as a
+                                natural.
+                            </p>
                             <a class="btn-danger border-0 shadow-lg rounded-3 p-1 text-decoration-none">
                                 MORE
                             </a>
@@ -208,17 +294,19 @@
                 </div>
 
                 <div class="col">
-                    <div class="card border-0 shadow-lg rounded-3 ">
+                    <div class="card border-0 shadow-lg rounded-3 card-hover-custom">
                         <div class="inner">
                             <img src="images/services/repair-service.jpg" class="card-img-top img-fluid"
                                 alt="repair-service">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title text-success fw-bold">
-                                REPAIR <br> 
+                                REPAIR <br>
                                 <span class="text-secondary "> SERVICES </span>
                             </h5>
-                            <p class="card-text text-secondary">This is a longer card with supporting text below as a natural  lead-in to additional content.</p>
+                            <p class="card-text text-secondary">This is a longer card with supporting text below as a
+                                natural.
+                            </p>
                             <a class="btn-danger border-0 shadow-lg rounded-3 p-1 text-decoration-none">
                                 MORE
                             </a>
@@ -227,17 +315,19 @@
                 </div>
 
                 <div class="col">
-                    <div class="card border-0 shadow-lg rounded-3 ">
+                    <div class="card border-0 shadow-lg rounded-3 card-hover-custom">
                         <div class="inner">
                             <img src="images/services/tire-wheel-service.jpg" class="card-img-top img-fluid"
                                 alt="tire-wheel-service">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title text-success fw-bold">
-                                TIRE WHEEL <br> 
+                                TIRE WHEEL <br>
                                 <span class="text-secondary"> SERVICES</span>
                             </h5>
-                            <p class="card-text text-secondary">This is a longer card with supporting text below as a natural  lead-in to additional content.</p>
+                            <p class="card-text text-secondary">This is a longer card with supporting text below as a
+                                natural.
+                            </p>
                             <a class="btn-danger border-0 shadow-lg rounded-3 p-1 text-decoration-none">
                                 MORE
                             </a>
@@ -249,6 +339,32 @@
 
     </section>
     <!-- End Services Section -->
+
+    <!-- Start Hero Section -->
+    <section class="about-bg pt-5 ">
+        <main class="container ">
+            <div class="d-flex flex-column-reverse flex-md-row h-100 align-content-center justify-content-between ">
+                <div class="ps-3 pt-5 my-5 w-75 text-justify text-warning">
+                    <p>
+                        We Give You
+                    </p>
+                    <h1 class="fw-bold">
+                        QUALITY <span class="text-danger">AUTO REPAIR</span>
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+                        Illo repellat ab rerum, magnam nihil excepturi?
+                    </p>
+
+                </div>
+
+                <div class="px-3 pt-5  ">
+                    <img class="img-fluid" src="images/services/repair-service.jpg" alt="about">
+                </div>
+            </div>
+        </main>
+    </section>
+    <!-- End Hero Section -->
 
     <!-- bootstrap-js-bundle -->
     <script src="js/bootstrap.bundle.min.js"></script>
