@@ -91,6 +91,31 @@ input[placeholder], [placeholder], *[placeholder]
 .card-overlapping-colors
 {
   background-color:#2E3967!important ;
+
+}
+.phone-bg
+{
+  background-image: url('images/icon/phone.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 120px 120px;
+  background-color:#2E3967!important ;
+}
+.percentage-bg
+{
+  background-image: url('images/icon/percentage.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 120px 120px;
+  background-color:#2E3967!important ;
+}
+.tips-bg
+{
+  background-image: url('images/icon/tips.png');
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 120px 120px;
+  background-color:#2E3967!important ;
 }
 .next-btn{
   outline: none !important;
@@ -99,4 +124,8 @@ input[placeholder], [placeholder], *[placeholder]
 .pervious-btn{
   outline: none !important;
   cursor: pointer;
+}
+.bg-1
+{
+  
 }
