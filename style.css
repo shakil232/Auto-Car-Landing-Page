@@ -59,15 +59,11 @@ input[placeholder], [placeholder], *[placeholder]
 .about-bg
 {
   background-image: 
-  linear-gradient(120deg,
-   transparent 50%,
-   rgba(78, 38, 105, 0.9)50%
-  ),
-  url('images/bg/about-bg.jpg');
+  url('images/bg/about-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+  background-attachment: fixed;
 }
 .custom-bg-color
 {
