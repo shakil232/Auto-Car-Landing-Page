@@ -29,19 +29,46 @@ input[placeholder], [placeholder], *[placeholder]
 {
   color: rgb(10, 136, 153) !important;
 }
+.custom-bg-color
+{
+  background: #f6f6f6;
+}
 
+/* CONNECT AREA */
+.connect-bg
+{
+  background-color:#2E3967 ;
+}
+.connected-icons{
+  color: orangered;
+  font-size: 18px;
+  padding: 0 5px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+.connected-icons :hover{
+  color: white;
+}
+
+/* NAV-BAR AREA */
+.nav-bg {
+  background-color:rgb(38, 28, 65) ;
+}
 .navbar-toggler
 {
-  background-color: dodgerblue! important;
+  background-color: white! important;
 }
-
-.nav-link {
-  color: dimgray! important;
+.nav-link 
+{
+  color: white! important;
   transition: all 1.5s ease! important;
 }
-.nav-link:hover{
-  color: #06810d! important;
+.nav-link:hover
+{
+  color: olivedrab! important;
 }
+
+/* HERO AREA */
 .hero-bg
 {
   background-image: 
@@ -53,45 +80,13 @@ input[placeholder], [placeholder], *[placeholder]
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  
-}
-.about-bg
-{
-  background-image: 
-  url('images/bg/about-bg.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.custom-bg-color
-{
-  background: #f6f6f6;
+  margin-top: -8px;
 }
 
-.card-hover-custom
-{
-  transition: all 0.7s ease! important;
-}
-.card-hover-custom:hover
-{
-  text-shadow: none !important;
-  box-sizing: border-box !important;
-  cursor: pointer !important;
-  -webkit-transform: scale(1.1) !important;
-  -ms-transform: scale(1.1)!important;
-  transform: scale(1.1) !important;
-  z-index: 2;
-}
+/* CONTACT AREA */
 .card-overlapping
 {
   margin-top: -30px !important;
-}
-.card-overlapping-colors
-{
-  background-color:#2E3967!important ;
-
 }
 .phone-bg
 {
@@ -107,7 +102,7 @@ input[placeholder], [placeholder], *[placeholder]
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 120px 120px;
-  background-color:#2E3967!important ;
+  background-color:rgb(144, 9, 76)!important ;
 }
 .tips-bg
 {
@@ -125,7 +120,33 @@ input[placeholder], [placeholder], *[placeholder]
   outline: none !important;
   cursor: pointer;
 }
-.bg-1
+
+/* SERVICE AREA */
+.card-hover-custom
 {
-  
+  transition: all 0.7s ease! important;
 }
+.card-hover-custom:hover
+{
+  text-shadow: none !important;
+  box-sizing: border-box !important;
+  cursor: pointer !important;
+  -webkit-transform: scale(1.1) !important;
+  -ms-transform: scale(1.1)!important;
+  transform: scale(1.1) !important;
+  z-index: 2;
+}
+
+/* ABOUT AREA */
+.about-bg
+{
+  background-image: 
+  url('images/bg/about-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
