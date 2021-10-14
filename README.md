@@ -14,6 +14,6 @@ _Responsive all device image_
 ![Landing Page](images/markdwon/auto-car-responsive.PNG)
 
 _Webpage Overview full screenshot image_
-![Landing Page](images/markdwon/auto-car-fullsite-screenshot.png)
+![Landing Page](images/markdwon/auto-car-fullsite-screenshot.PNG)
 
 ---
