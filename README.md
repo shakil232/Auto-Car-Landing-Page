@@ -10,10 +10,14 @@
 ### _Web-Site Live Link_
 [click here](http://192.168.0.103:5500/index.html)
 
-_Responsive all device image_
-![Landing Page](images/markdwon/auto-car-responsive.PNG)
+### _Responsive all device image_
 
-_Webpage Overview full screenshot image_
-![Landing Page](images/markdwon/auto-car-fullsite-screenshot.PNG)
+![Landing Page](images/markdwon/auto-car-responsive.png)
+
+---
+
+### _Webpage Overview full screenshot image_
+
+![Landing Page](images/markdwon/auto-car-full-screenshot.png)
 
 ---
