@@ -12,7 +12,7 @@
 
 ### _Responsive all device image_
 
-![Landing Page](images/markdwon/auto-car-responsive.png)
+
 
 ---
 
