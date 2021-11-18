@@ -12,12 +12,12 @@
 
 ### _Responsive all device image_
 
-![Landing Page](images/markdwon/auto-car-responsive.png)
+![Landing image](images/markdwon/auto-responsive.png)
 
 ---
 
 ### _Webpage Overview full screenshot image_
 
-![Landing Page](images/markdwon/auto-car-full-screenshot.png)
+![Landing image](images/markdwon/auto-car-full-screenshot.png)
 
 ---
